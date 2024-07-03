@@ -1,0 +1,61 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+html, body{
+   height: 100%;
+   width: 100%;
+}
+
+/* For like feature */
+
+body{
+    background-color: #111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+}
+
+#card{
+    height: 400px;
+    width: 300px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+#card img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#card i {
+    color: rgb(197, 43, 43);
+    font-size: 55px;
+    transform: scale(0.3);
+    position: absolute;
+    opacity: 0;
+    transition: transform ease 0.5s;
+}
+
+/* For custom cursor */
+
+.cursor{
+    background-color: #fff;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    position: absolute;
+    mix-blend-mode: difference;
+    transition: all linear 0.2s;
+}
+
+h1{
+    color: #fff;
+}
